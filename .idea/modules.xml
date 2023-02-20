@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dev.tools/dev.tools.iml" filepath="$PROJECT_DIR$/dev.tools/dev.tools.iml" />
       <module fileurl="file://$PROJECT_DIR$/lab.five/lab.five.iml" filepath="$PROJECT_DIR$/lab.five/lab.five.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab.six/lab.six.iml" filepath="$PROJECT_DIR$/lab.six/lab.six.iml" />
     </modules>
   </component>
 </project>
