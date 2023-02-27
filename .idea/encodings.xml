@@ -3,9 +3,11 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/devTools/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/devTools/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab.seven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lab.seven/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/task1/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/task1/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testMaven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/testMaven/src/main/resources" charset="UTF-8" />
   </component>
 </project>

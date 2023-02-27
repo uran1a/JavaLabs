@@ -1,7 +1,14 @@
-package realise;
+package release;
 import console.reader.ConsoleReader;
+
+import java.util.ArrayList;
+import java.util.List;
+
 class LabFive {
     public static void main(String[] args){
+
+
+
         final ConsoleReader reader = new ConsoleReader();
         System.out.println(createTriangleInsideTriangle(reader.readInt("Введите высоту треугольника: ")));
         System.out.println(createSolidTriangle(reader.readInt("Введите высоту треугольника: ")));
