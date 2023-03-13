@@ -12,10 +12,9 @@ import java.util.Map;
 
 public class Task23 implements ExecutionFactory {
     private static final int COUNT_DIERTY_SIGN = 2;
-    private final List<Integer[]> testArrays;
-    public Task23(){ testArrays = DataContainer.getSelectedListTask23(); }
+    //public Task23(){ testArrays = DataContainer.getSelectedListTask23(); }
     @Override
-    public List<String> execute() throws ConsoleException { return foundAllSequence(testArrays.get(0)); }
+    public List<String> execute() throws ConsoleException { return foundAllSequence(DataContainer.getCurrentArrayListTask24()); }
     public List<String> foundAllSequence(Integer[] arr) throws ConsoleException {
         List<DirtySequence<Integer>> sequences = new ArrayList<>();
         Map<Integer, Integer> mapSignIndex = new HashMap<>();
@@ -58,7 +57,9 @@ public class Task23 implements ExecutionFactory {
             sequence.selectionSequences(possibleSignInSequence);
         }
         List<String> toReturn = new ArrayList<>();
-        sequences.forEach(sequence -> toReturn.add(sequence.toString()));
+        for(var listSequences : sequences)
+            for(var sequence : listSequences.getSequences())
+                toReturn.add(sequence.toString());
         return toReturn;
     }
     private static <T> DirtySequence<T> sequenceWithMainSign(List<DirtySequence<T>> list, T mainSign){

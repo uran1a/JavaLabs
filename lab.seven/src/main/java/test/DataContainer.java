@@ -18,6 +18,7 @@ public class DataContainer {
        new Integer[] {4, 5, 3, 3, 7, 3, 3, 7, 6, 4, 6, 7, 7, 7, 7, 1},
        new Integer[] {4, 5, 3, 3, 4, 3}
      ));
+     private static Integer[] currentArrayListTask24;
 
      public static List<Integer[]> getListTask10(){ return listTask10; }
      public static List<String> getListStringTask10(){
@@ -27,6 +28,14 @@ public class DataContainer {
           return toReturn;
      }
      public static List<Integer[]> getListTask23(){ return listTask23; }
+     public static List<String> getListStringTask(List<Integer[]> list){
+          List<String> toReturn = new ArrayList<>();
+          for (Integer[] integers : list)
+               toReturn.add(Arrays.toString(integers));
+          return toReturn;
+     }
      public static List<Integer[]> getSelectedListTask23(){ return Collections.singletonList(listTask23.get(0)); }
      public static void addListTask10(Integer[] array) { listTask10.add(new Integer[]{10, 20, 30}); }
+     public static void setCurrentArrayListTask24(Integer[] array) { currentArrayListTask24 = array; }
+     public static Integer[] getCurrentArrayListTask24() { return currentArrayListTask24; }
 }

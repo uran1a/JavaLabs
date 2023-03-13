@@ -32,13 +32,13 @@ public class DirtySequence<T> {
             int lastIndex = ((mainSequence.size() + (maxCountDirtySign-countDirtySign))+i)-1;
             if(lastIndex <= dirtySequence.size()){
                 sequences.add(dirtySequence.subList(i, lastIndex+1));
-                if(dirtySequence.get(lastIndex).equals(dirtySequence.get(dirtySequence.size()-1)))
-                    break;
+                if(dirtySequence.get(lastIndex).equals(dirtySequence.get(dirtySequence.size()-1))) break;
             }
         }
         System.out.println(sequences.toString());
     }
     public T getMainSign(){ return this.mainSign; }
+    public List<List<T>> getSequences() {return sequences;}
     public int countDirtySign(int index){ return (index - mainSequence.get(mainSequence.size() - 1).getValue() - 1); }
     public boolean acceptableDistanceBetweenIndexes(int index){
         return index <= maxCountDirtySign;

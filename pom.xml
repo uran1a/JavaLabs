@@ -11,7 +11,7 @@
     <modules>
         <module>testMaven</module>
         <module>lab.seven</module>
-        <module>lab.seven</module>
+        <module>lab.eight</module>
     </modules>
 
     <properties>
