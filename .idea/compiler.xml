@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="lab.eight" />
+        <module name="lab.nine" />
         <module name="lab.seven" />
         <module name="testMaven" />
+        <module name="lab.eight" />
+        <module name="lab.ten" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
