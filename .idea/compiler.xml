@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="lab.nine" />
         <module name="lab.seven" />
-        <module name="testMaven" />
+        <module name="lab.eleven" />
         <module name="lab.eight" />
         <module name="lab.ten" />
       </profile>
@@ -17,6 +17,7 @@
       <module name="devTools" target="19" />
       <module name="lab.eighth" target="19" />
       <module name="lab.eigth" target="19" />
+      <module name="testMaven" target="19" />
     </bytecodeTargetLevel>
   </component>
 </project>

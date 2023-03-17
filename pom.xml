@@ -9,12 +9,25 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
-        <module>testMaven</module>
         <module>lab.seven</module>
         <module>lab.eight</module>
         <module>lab.nine</module>
         <module>lab.ten</module>
+        <module>lab.eleven</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-controls</artifactId>
+            <version>21-ea+5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-fxml</artifactId>
+            <version>21-ea+5</version>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>19</maven.compiler.source>

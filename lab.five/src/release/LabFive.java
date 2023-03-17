@@ -1,17 +1,14 @@
 package release;
 import console.reader.ConsoleReader;
 
-import java.util.ArrayList;
-import java.util.List;
 
 class LabFive {
     public static void main(String[] args){
-
-
         final ConsoleReader reader = new ConsoleReader();
         System.out.println(createTriangleInsideTriangle(reader.readInt("Введите высоту треугольника: ")));
         System.out.println(createSolidTriangle(reader.readInt("Введите высоту треугольника: ")));
     }
+    //10
     private static String createTriangleInsideTriangle(int height){
         StringBuilder str = new StringBuilder();
         for (int i = 0; i < height; i++) {
@@ -26,6 +23,7 @@ class LabFive {
         }
         return str.toString();
     }
+    //18
     private static String createSolidTriangle(int height){
         StringBuilder str = new StringBuilder();
         for (int i = 0; i < height; i++) {
