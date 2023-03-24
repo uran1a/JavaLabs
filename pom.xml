@@ -14,6 +14,7 @@
         <module>lab.nine</module>
         <module>lab.ten</module>
         <module>lab.eleven</module>
+        <module>lab.twelve</module>
     </modules>
 
     <dependencies>
